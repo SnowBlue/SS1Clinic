@@ -1,4 +1,6 @@
 package core.clientservercommunication;
+import core.clientservercommunication.protocol.WebResponse;
+
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;

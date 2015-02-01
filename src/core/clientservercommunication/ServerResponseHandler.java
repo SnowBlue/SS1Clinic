@@ -1,5 +1,7 @@
 package core.clientservercommunication;
 
+import core.clientservercommunication.protocol.WebResponse;
+
 /**
  * Created by Kenny on 2/1/2015.
  */
@@ -11,6 +13,18 @@ class ServerResponseHandler {
         WebResponse response = new WebResponse();
         switch (response.getMessage().getRequestType()){
             case AppointmentBook:
+                break;
+            case AppointmentCancel:
+                break;
+            case AppointmentChange:
+                break;
+            case SessionAuthentication:
+                break;
+            case PatientRegistration:
+                break;
+            case PatientUpdate:
+                break;
+            case PatientDelete:
                 break;
             default:
                 break;

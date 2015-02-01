@@ -1,12 +1,13 @@
-package core.clientservercommunication;
+package core.clientservercommunication.protocol;
 
 import core.clientservercommunication.message.Message;
+import core.clientservercommunication.protocol.ResponseStatus;
 import core.user.Session;
 
 /**
  * Created by Kenny on 2/1/2015.
  */
-class WebResponse {
+public class WebResponse {
     private Message message;
     private Session userSession;
     private ResponseStatus status;
