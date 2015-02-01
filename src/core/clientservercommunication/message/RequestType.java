@@ -1,4 +1,4 @@
-package core.clientservercommunication;
+package core.clientservercommunication.message;
 
 /**
  * Created by Kenny on 2/1/2015.
