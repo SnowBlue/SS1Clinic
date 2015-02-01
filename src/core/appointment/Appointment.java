@@ -18,7 +18,7 @@ public class Appointment {
     private boolean isApproved;
     private boolean isFulfilled;
     private boolean isCancelled;
-    private boolean isModified;
+    private boolean isModifid;
 
     public DateTime getRequestDate() {
         return requestDate;
